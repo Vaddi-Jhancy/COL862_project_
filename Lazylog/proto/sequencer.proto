@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package sequencer;
+
+service SequencerService {
+  rpc Append(AppendRequest) returns (AppendReply);
+}
+
+message AppendRequest {
+  int32 client_id = 1;
+  int32 req_id = 2;
+  string record = 3;
+}
+
+message AppendReply {
+  bool success = 1;
+  int64 global_pos = 2;
+  string message = 3;
+}

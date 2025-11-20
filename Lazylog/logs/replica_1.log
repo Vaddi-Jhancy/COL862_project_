@@ -1,0 +1,475 @@
+2025-11-19 21:29:05,647:319655(0x7fc066cbff40):ZOO_INFO@log_env@753: Client environment:zookeeper.version=zookeeper C client 3.4.13
+2025-11-19 21:29:05,647:319655(0x7fc066cbff40):ZOO_INFO@log_env@757: Client environment:host.name=baadalvm
+2025-11-19 21:29:05,647:319655(0x7fc066cbff40):ZOO_INFO@log_env@764: Client environment:os.name=Linux
+2025-11-19 21:29:05,647:319655(0x7fc066cbff40):ZOO_INFO@log_env@765: Client environment:os.arch=5.15.0-152-generic
+2025-11-19 21:29:05,647:319655(0x7fc066cbff40):ZOO_INFO@log_env@766: Client environment:os.version=#162-Ubuntu SMP Wed Jul 23 09:48:42 UTC 2025
+2025-11-19 21:29:05,650:319655(0x7fc066cbff40):ZOO_INFO@log_env@774: Client environment:user.name=baadalvm
+2025-11-19 21:29:05,650:319655(0x7fc066cbff40):ZOO_INFO@log_env@782: Client environment:user.home=/home/baadalvm
+2025-11-19 21:29:05,650:319655(0x7fc066cbff40):ZOO_INFO@log_env@794: Client environment:user.dir=/home/baadalvm/COL862/Sequencer/ankita/build
+2025-11-19 21:29:05,650:319655(0x7fc066cbff40):ZOO_INFO@zookeeper_init@818: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=(nil) sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2025-11-19 21:29:05,651:319655(0x7fc066adc640):ZOO_INFO@check_events@1763: initiated connection to server [127.0.0.1:2181]
+2025-11-19 21:29:05,654:319655(0x7fc066adc640):ZOO_INFO@check_events@1809: session establishment complete on server [127.0.0.1:2181], sessionId=0x1002925cee700b6, negotiated timeout=30000
+[ZK] Warning: znode already exists at /lazylog/replicas/replica-50052 (attempt 0), trying delete+recreate
+[ZK] Registered replica at /lazylog/replicas/replica-50052
+[ELECTION] This node is FOLLOWER.
+[SEQUENCER] View sealed, rejecting new appends.
+[INIT] Node started as FOLLOWER, view sealed.
+[ZK] Created election node /lazylog/election/node-0000000090
+[ELECTION] My election node: /lazylog/election/node-0000000090
+[ELECTION][DEBUG] my_node_name (last component): node-0000000090
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[follower] Server listening on 0.0.0.0:50052
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: node-0000000085 n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086 node-0000000084
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000089 node-0000000091 node-0000000090 n_0000000086
+[SEQUENCER] View sealed, rejecting new appends.
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION] This node became LEADER.
+[SEQUENCER] View unsealed, accepting appends.
+[ELECTION] elected leader (node=node-0000000090)
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086
+[ELECTION][DEBUG] children under /lazylog/election: n_0000000087 n_0000000088 node-0000000091 node-0000000090 n_0000000086

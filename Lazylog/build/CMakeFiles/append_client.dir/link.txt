@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/append_client.dir/client/append_client.cpp.o CMakeFiles/append_client.dir/src/generated/sequencer.pb.cc.o CMakeFiles/append_client.dir/src/generated/sequencer.grpc.pb.cc.o -o append_client  -lgrpc++ -lgrpc -lgpr /usr/lib/x86_64-linux-gnu/libprotobuf.so -lpthread 

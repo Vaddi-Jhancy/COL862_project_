@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package sequencer_internal;
+
+// Leader -> Follower RPC: replicate an entry
+service SequencerInternal {
+  rpc ReplicateAppend(ReplicateAppendRequest) returns (ReplicateAppendReply);
+}
+
+message ReplicateAppendRequest {
+  int32 client_id = 1;
+  int32 req_id = 2;
+  string record = 3;
+  int64 local_index = 4; // leader's local index for the entry
+}
+
+message ReplicateAppendReply {
+  bool ok = 1;
+  string message = 2;
+}
