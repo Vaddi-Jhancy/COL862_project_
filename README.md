@@ -1,4 +1,4 @@
-*** LazyLog Replica System
+*** LazyLog Replica System ***
 
 A minimal distributed sequencer/log replication system inspired by LazyLog and Erwin, providing:
 
@@ -12,7 +12,7 @@ A clean append-only log interface
 
 This README explains the architecture, code flow, file structure, and execution steps.
 
-*** 1. System Architecture (High-Level)
+*** 1. System Architecture (High-Level)***
 Core Components
 
 Leader
@@ -51,7 +51,7 @@ The replica with the smallest numeric suffix becomes leader
 
 If a leader dies, ZK deletes its node → next smallest becomes leader
 
-*** 2. Code Flow Overview
+*** 2. Code Flow Overview ***
 1. Startup (sequencer_server.cc)
 
 Connect to ZooKeeper
@@ -92,7 +92,7 @@ ZK removes its ephemeral nodes
 
 Next smallest sequential znode becomes new leader
 
-*** 3. File Responsibilities
+*** 3. File Responsibilities ***
 sequencer_server.cc
 
 Starts replica
@@ -151,11 +151,11 @@ Kills it
 
 Waits for ZK to elect next leader
 
-*** 4. Building the System
+*** 4. Building the System  ***
 cmake -S . -B build
 cmake --build build -j
 
-*** 5. Running the System
+*** 5. Running the System ***
 Step 1 — Start everything + client appends
 chmod +x run_complete.sh
 ./run_complete.sh
