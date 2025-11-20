@@ -93,28 +93,7 @@ ZK removes its ephemeral nodes
 Next smallest sequential znode becomes new leader
 
 *** 3. Project File Structure
-LazyLog-Replica-System/
-│
-├── build/
-│   ├── sequencer
-│   └── append_client
-│
-├── src/
-│   ├── sequencer_server.cc
-│   ├── sequencer.cc
-│   ├── zk_helpers.cc
-│   ├── sequencer_service_impl.cc
-│   └── utils.cc
-│
-├── proto/
-│   ├── sequencer.proto
-│   └── sequencer_internal.proto
-│
-├── logs/
-│
-├── run_complete.sh
-└── failover_test.sh
-
+![Project architecture](https://drive.google.com/file/d/18dVSY8fsqYt0QOAN1OxtcrvLGvTT7w5P/view?usp=sharing)
 *** 4. File Responsibilities
 sequencer_server.cc
 
