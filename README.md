@@ -13,6 +13,7 @@ A clean append-only log interface
 This README explains the architecture, code flow, file structure, and execution steps.
 
 *** 1. System Architecture (High-Level)***
+
 Core Components
 
 Leader
