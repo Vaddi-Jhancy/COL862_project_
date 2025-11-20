@@ -53,6 +53,7 @@ The replica with the smallest numeric suffix becomes leader
 If a leader dies, ZK deletes its node → next smallest becomes leader
 
 *** 2. Code Flow Overview ***
+
 1. Startup (sequencer_server.cc)
 
 Connect to ZooKeeper
@@ -153,10 +154,12 @@ Kills it
 Waits for ZK to elect next leader
 
 *** 4. Building the System  ***
+
 cmake -S . -B build
 cmake --build build -j
 
 *** 5. Running the System ***
+
 Step 1 — Start everything + client appends
 chmod +x run_complete.sh
 ./run_complete.sh
